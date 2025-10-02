@@ -1,0 +1,59 @@
+Cyber Security Internship - Task 7
+Audit Notes: Browser Extension Review and Cleanup
+Date: 2025-10-02
+Browser: Mozilla Firefox
+OS: Linux (Kali)
+
+--------------------------------------------------
+Step 1: Access Extension Manager
+--------------------------------------------------
+- Visited: about:addons
+- Reviewed all installed extensions one by one
+
+--------------------------------------------------
+Step 2: Extension List Reviewed
+--------------------------------------------------
+
+1. Extension: QuickTranslate Pro
+   - Developer: FastTools Labs
+   - Permissions: Access all websites, read clipboard
+   - Notes: Broad access, clipboard read, potential privacy risk
+   - Action: REMOVED
+
+2. Extension: MegaDownload Helper
+   - Developer: Unknown Publisher
+   - Permissions: Manage downloads, read browsing history
+   - Notes: Unknown source, excessive permissions
+   - Action: REMOVED
+
+3. Extension: Rainbow Theme Switcher
+   - Developer: Colorful Co.
+   - Permissions: Access to browser tabs
+   - Notes: Not used, safe but unnecessary
+   - Action: DISABLED
+
+4. Extension: AdCleaner Lite
+   - Developer: AdCleaner Inc.
+   - Permissions: Script injection, full data access on all websites
+   - Notes: Reported to cause redirects and ad injections
+   - Action: REMOVED
+
+5. Extension: CryptoMiner Helper
+   - Developer: MinerSoft
+   - Permissions: Run background CPU tasks
+   - Notes: Suspicious use of CPU resources
+   - Action: REMOVED
+
+--------------------------------------------------
+Step 3: Post-Audit Actions
+--------------------------------------------------
+- Removed 4 suspicious/unneeded extensions
+- Disabled 1 unused but harmless extension
+- Restarted Firefox to apply changes
+
+--------------------------------------------------
+Result
+--------------------------------------------------
+- Browser performance improved
+- No suspicious activity observed post-cleanup
+- All active extensions now verified and necessary
